@@ -1,0 +1,179 @@
+body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color:seashell;
+}
+
+/* header */
+.header {
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    vertical-align: middle;
+}
+
+.logo,
+.menu {
+    display: inline-block
+}
+
+.header .logo {
+    margin-left: 10px;
+}
+
+.header .menu {
+    float: right;
+}
+
+.menu_list li {
+    display: inline;
+    margin-right: 1em;
+}
+
+.menu_list a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+/*hero*/
+.hero {
+    top: 70px;
+    position: relative;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    padding-top: 0px;
+    background: url("img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loc-title {
+    padding: 15px 0px;
+}
+
+.hero-title {
+    width: 1200px;
+    background: black;
+}
+
+.hero-title h2, .hero-title h4 {
+    text-align: center;
+}
+
+/* month */
+
+.month {
+    padding: 70px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.month-boxes {
+    width: 1000px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.month-title h2, .month-title h4 {
+    text-align: center;
+}
+
+.month-box h2, .month-box h4 {
+    text-align: center;
+}
+
+.month-small {
+    width: 300px;
+}
+
+.month-small h4 {
+    margin-top: 10px;
+}
+
+/*Locations*/
+.location {
+    padding: 70px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-box {
+    height: 500px;
+    width: 1200px;
+    background: url("img-locations-background.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.location-box h2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.loc-boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.loc-box {
+    height: 300px;
+    width: 300px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    margin-right: 40px;
+}
+
+.loc-box h3 {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.loc-box h4 {
+    margin: 0px 0px;
+    line-height: 2.5;
+    text-align: center;
+}
+
+/*contact*/
+.contact {
+    height: 200px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact h5 {
+    text-align: center;
+    line-height: 2.5;
+}
+
+/* footer*/
+.footer h5{
+    margin-left: 20px;
+    text-align: 20px;
+}
+
+
+/*    border: 1px solid seashell;*/
